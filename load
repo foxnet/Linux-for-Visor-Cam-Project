@@ -1,0 +1,3 @@
+#!/bin/sh
+insmod /mnt/bf533usb.ko
+mknod /dev/usb c 253 0

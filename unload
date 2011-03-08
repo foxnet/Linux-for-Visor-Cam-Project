@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rmmod bf533usb
+rm -f /dev/bf
