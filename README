@@ -1,1 +1,9 @@
 Linux driver for Cypress FX2 USB peripherial controller
+
+To build the driver, you need blackfin toolchain, avaiable on AnalogDevices homepage.
+
+Set up enviroment variable PATH:
+export PATH=~/blackfin-sources/build/bfin-elf/bin:~/blackfin-sources/build/bfin-uclinux/bin:~/blackfin-sources/build/bfin-linux-uclibc/bin:${PATH}
+
+Build with:
+make CROSS_COMPILE=bfin-uclinux- ARCH=blackfin
