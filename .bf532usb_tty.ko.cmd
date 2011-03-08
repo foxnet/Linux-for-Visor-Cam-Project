@@ -1,1 +1,0 @@
-cmd_/home/foxnet/Projects/BF_driver/bf532usb_tty.ko := bfin-uclinux-ld -r  -T /home/foxnet/blackfin-sources/uclinux-dist/linux-2.6.x/scripts/module-common.lds -m elf32bfin  -o /home/foxnet/Projects/BF_driver/bf532usb_tty.ko /home/foxnet/Projects/BF_driver/bf532usb_tty.o /home/foxnet/Projects/BF_driver/bf532usb_tty.mod.o
